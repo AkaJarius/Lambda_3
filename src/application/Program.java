@@ -19,5 +19,7 @@ public class Program {
         list.add(new Product("PlayStation 5", 700.00));
 
         list.forEach(new PriceUpdate());
+
+        list.forEach(System.out::println);
     }
 }
